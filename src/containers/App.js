@@ -2,7 +2,8 @@ import React from 'react';
 import { fetchAnimals } from '../utilz/apiCalls';
 import { getAnimals, loadComplete, hasErrored } from '../actions';
 import { connect } from 'react-redux';
-import AnimalsDisplay from './AnimalsDisplay'
+import AnimalsDisplay from './AnimalsDisplay';
+import DonationsDisplay from './DonationsDisplay';
 import './App.css';
 
 export class App extends React.Component {
@@ -20,7 +21,10 @@ export class App extends React.Component {
         <header className='app-header'>
           <h1 className='app-title'>Animal Rescue</h1>
         </header>
+        <section className='content'>
         <AnimalsDisplay />
+        <DonationsDisplay />
+        </section>
       </main>
     )
   }
