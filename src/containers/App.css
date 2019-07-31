@@ -18,6 +18,7 @@
 }
 
 .donations-heading {
+  font-size: 2.5em;
   font-weight: bold;
   font-family: 'Fjalla One', sans-serif;
   text-align: center;
@@ -30,7 +31,7 @@
   box-shadow: 0px 0px 8px black;
   height: 60px;
   margin: 10px;
-  padding: 15px;
+  opacity: 0.8;
   text-align: center;
 }
 
@@ -44,11 +45,13 @@
   flex-direction: column;
   margin: 10px;
   padding: 15px;
+  opacity: 0.7;
   width: 300px;
 }
 
 .animal-tile-img {
   height: 150px;
+  opacity: 1.5;
 }
 
 .animal-name,
@@ -61,7 +64,7 @@
 }
 
 .app-title {
-  color: white;
+  color: #b2f4e4;
   font-family: 'Fjalla One', sans-serif;
   font-size: 3em;
   margin: 5px;
@@ -115,9 +118,10 @@
 }
 
 .donation-submit:hover {
-  background-color: turquoise;
+  background-color: #b2f4e4;
   color: white;
   font-size: 1.2em;
+  font-weight: bold;
   height: 40px;
   width: 280px;
 }
