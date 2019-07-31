@@ -23,6 +23,11 @@ class DonationForm extends React.Component {
         postDonation(newDonation)
         .then(donation => this.props.addDonation(donation))
         .catch(error => this.props.hasErrored(error))
+        this.clearInputs()
+    }
+
+    clearInputs = () => {
+        this.setState({ name: '', donation: ''})
     }
 
     render () {
