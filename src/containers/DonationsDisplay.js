@@ -11,6 +11,7 @@ const DonationsDisplay = ({ donations }) => {
     })
     return (
         <section className='donations-sidebar'>
+            <h2 className='donations-heading'>Recent Donations</h2>
             {amounts}
         </section>
     )
