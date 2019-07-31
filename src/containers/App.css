@@ -45,13 +45,12 @@
   flex-direction: column;
   margin: 10px;
   padding: 15px;
-  opacity: 0.7;
+  opacity: 0.78;
   width: 300px;
 }
 
 .animal-tile-img {
-  height: 150px;
-  opacity: 1.5;
+  height: 150px; 
 }
 
 .animal-name,
@@ -59,8 +58,13 @@
   margin: 5px;
 }
 
+.animal-name {
+  font-family: 'Fjalla One', sans-serif;
+}
+
 .animal-description {
-  font-size: .8em;
+  font-size: .9em;
+  text-align: center;
 }
 
 .app-title {
@@ -119,7 +123,6 @@
 
 .donation-submit:hover {
   background-color: #b2f4e4;
-  color: white;
   font-size: 1.2em;
   font-weight: bold;
   height: 40px;
