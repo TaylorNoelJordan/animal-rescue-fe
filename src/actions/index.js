@@ -15,4 +15,5 @@ export const loadComplete = () => ({
 export const getDonations = donations => ({
     type: 'GET_DONATIONS',
     donations
-})
+});
+

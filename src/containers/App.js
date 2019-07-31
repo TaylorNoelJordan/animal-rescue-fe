@@ -29,7 +29,8 @@ export class App extends React.Component {
 const mapStateToProps = state => ({
   animals: state.animals,
   error: state.error,
-  loading: state.isLoading
+  loading: state.isLoading,
+  donations: state.donations
 });
 
 const mapDispatchToProps = dispatch => ({
