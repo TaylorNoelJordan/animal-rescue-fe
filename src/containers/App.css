@@ -1,0 +1,35 @@
+.animals-display {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
+}
+
+.animal-tile {
+  align-items: center;
+  border: dotted 1px black;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  margin: 10px;
+  padding: 15px;
+  width: 400px;
+}
+
+.animal-tile-img {
+  height: 250px;
+}
+
+.animal-name,
+.animal-species {
+  margin: 5px;
+}
+
+.app-title {
+  color: white;
+  margin-top: 0;
+  text-align: center;
+}
+
+.app-header {
+  background-color: black;
+}
