@@ -4,6 +4,7 @@ import { getAnimals, loadComplete, hasErrored, getDonations } from '../actions';
 import { connect } from 'react-redux';
 import AnimalsDisplay from './AnimalsDisplay';
 import DonationsDisplay from './DonationsDisplay';
+import DonationForm from './DonationForm';
 import './App.css';
 
 export class App extends React.Component {
@@ -24,6 +25,7 @@ export class App extends React.Component {
       <main>
         <header className='app-header'>
           <h1 className='app-title'>Animal Rescue</h1>
+          <DonationForm />
         </header>
         <section className='content'>
         <AnimalsDisplay />
