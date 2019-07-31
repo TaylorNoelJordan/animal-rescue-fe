@@ -58,8 +58,13 @@
   margin: 5px;
 }
 
+.animal-name {
+  font-family: 'Fjalla One', sans-serif;
+}
+
 .animal-description {
-  font-size: .8em;
+  font-size: .9em;
+  text-align: center;
 }
 
 .app-title {
