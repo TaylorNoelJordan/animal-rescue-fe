@@ -15,7 +15,6 @@ export const fetchDonations = async () => {
         const donations = await fetch(url);
         const response = await donations.json();
         return response
-
     } catch (error) {
         throw new Error(error.message)
     }

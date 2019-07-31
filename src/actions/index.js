@@ -11,3 +11,8 @@ export const hasErrored = errorMsg => ({
 export const loadComplete = () => ({
     type: 'LOAD_COMPLETE'
 });
+
+export const getDonations = donations => ({
+    type: 'GET_DONATIONS',
+    donations
+})
