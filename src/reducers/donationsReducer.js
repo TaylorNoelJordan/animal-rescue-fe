@@ -3,6 +3,9 @@ export const donationsReducer = (state = [], action) => {
         case 'GET_DONATIONS':
             return action.donations;
 
+        case 'ADD_DONATION':
+            return [...state, action.donation]
+
         default: 
             return state;
     }
