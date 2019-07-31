@@ -5,6 +5,7 @@ import { connect } from 'react-redux';
 const DonationsDisplay = ({ donations }) => {
     const amounts = donations.map(donation => {
         return <DonationTile 
+                    key={donation.id}
                     name={donation.name}
                     donation={donation.donation}
                 />
